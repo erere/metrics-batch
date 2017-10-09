@@ -40,8 +40,8 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public ZephyrItemProcessor processor() {
-        return new ZephyrItemProcessor();
+    public MetricsItemProcessor processor() {
+        return new MetricsItemProcessor();
     }
 
     @Bean

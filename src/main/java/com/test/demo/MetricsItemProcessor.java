@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.batch.item.ItemProcessor;
 
-public class ZephyrItemProcessor implements ItemProcessor<StudentDTO, StudentDTO> {
+public class MetricsItemProcessor implements ItemProcessor<StudentDTO, StudentDTO> {
 
-	private static final Logger log = LoggerFactory.getLogger(ZephyrItemProcessor.class);
+	private static final Logger log = LoggerFactory.getLogger(MetricsItemProcessor.class);
 
 	@Override
 	public StudentDTO process(final StudentDTO studentDTO) throws Exception {

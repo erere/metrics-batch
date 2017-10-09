@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {SecurityAutoConfiguration.class})
-public class ZephyrMetricsBatchApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZephyrMetricsBatchApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
